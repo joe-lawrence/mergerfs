@@ -35,7 +35,7 @@ PANDOC  =       $(shell which pandoc)
 RPMBUILD =      $(shell which rpmbuild)
 
 ifeq ($(PKGCONFIG),"")
-$(error "pkg-config not installed"
+$(error "pkg-config not installed")
 endif
 
 ifeq ($(PANDOC),"")
